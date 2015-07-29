@@ -1,0 +1,1 @@
+rational.d: ../rational.cpp

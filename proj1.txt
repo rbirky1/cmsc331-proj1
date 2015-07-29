@@ -1,0 +1,22 @@
+There is an updated C++ cheat sheet here
+
+C++ programming exercise: 
+Due Tuesday, April 1. 
+Extra credit if submitted by Friday, March 28.
+
+Create a C++ program that extends the rational class from the C++ cheat sheet as follows:
+
+1. Add a square root function to the rational class.
+
+Have your program print the square root of 1/2, and the square root of 1/100.
+Hint: you won't get an exact answer for the square root of 1/2, but you can get an approximate value as follows: Let rational(n,d) be any rational object.
+To calculate the square root, use the the integer part of sqrt(100*n) as the numerator, and likewise for the denominator d.
+
+2. Add a harmonic series sum function to the program.
+The sum of a harmonic series is the sum of the rationals 1/1 + 1/2 + 1/3 + 1/4 + ... + 1/n for some integer value of n.
+Have your program print the sum of the harmonic series for n = 50. You can use a for loop, a while loop, or recursion, your choice. 
+
+3. You may use the cheat sheet code, but remove print statements from main that aren't related to parts 1 and 2.
+
+For grading: use the UNIX script command to capture the program's output. Email your C++ code and the resulting typescript file to BOTH nicholas@umbc.edu AND mat7@umbc.edu.
+Emailing to me only may delay grading of your assignment.

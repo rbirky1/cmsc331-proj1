@@ -1,0 +1,18 @@
+Script started on Tue Mar 25 18:39:58 2014
+[?1034hbash-3.2$ ls
+Debug			proj1.txt
+birkyTranscript.txt	rational.cpp
+bash-3.2$ g++ rational.cpp -o main
+bash-3.2$ ./main
+
+Testing the square root function:
+Square root of 1/2: 10/14
+Square root of 1/100: 1/10
+
+Testing the harmonic sum function:
+Harmonic sum of 12: 1486442880/479001600
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 25 18:40:17 2014
